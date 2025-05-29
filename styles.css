@@ -1,0 +1,52 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background-color: #6a4c93;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.personas-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.person-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.person-card:hover {
+  transform: translateY(-5px);
+}
+
+.person-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.person-card h2 {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.person-card p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
